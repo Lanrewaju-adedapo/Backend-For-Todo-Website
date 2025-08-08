@@ -1,0 +1,118 @@
+[
+  {
+    "ContainingType": "TestProject.Controllers.TodosController",
+    "Method": "CreateTodo",
+    "RelativePath": "api/Todos",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "todoDto",
+        "Type": "TestProject.ViewModels_DTOs_.CreateTodoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TestProject.Controllers.TodosController",
+    "Method": "GetAllTasks",
+    "RelativePath": "api/Todos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TestProject.Controllers.TodosController",
+    "Method": "UpdateTask",
+    "RelativePath": "api/Todos",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateTask",
+        "Type": "TestProject.ViewModels_DTOs_.UpdateTaskDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TestProject.Controllers.TodosController",
+    "Method": "GetTaskById",
+    "RelativePath": "api/Todos/{taskId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "taskId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TestProject.Controllers.TodosController",
+    "Method": "DeleteTask",
+    "RelativePath": "api/Todos/{taskId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "taskId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TestProject.Controllers.TodosController",
+    "Method": "GetAllCategories",
+    "RelativePath": "api/Todos/categories",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TestProject.Controllers.TodosController",
+    "Method": "CompleteTask",
+    "RelativePath": "api/Todos/CompleteTask",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "taskDto",
+        "Type": "TestProject.ViewModels_DTOs_.CompleteTaskDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TestProject.Controllers.TodosController",
+    "Method": "GetTaskByCategory",
+    "RelativePath": "api/Todos/getcategory/{CategoryId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "CategoryId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
