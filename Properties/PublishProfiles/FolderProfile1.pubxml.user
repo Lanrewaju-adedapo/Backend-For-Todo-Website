@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- https://go.microsoft.com/fwlink/?LinkID=208121. -->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\user\source\repos\TestProject\bin\Release\net9.0\publish\</_PublishTargetUrl>
+    <History>True|2025-10-09T10:01:12.0301008Z||;True|2025-10-08T20:39:27.4737861+01:00||;True|2025-09-08T09:11:21.3672357+01:00||;True|2025-09-07T19:00:57.1462526+01:00||;True|2025-09-06T07:40:14.8730986+01:00||;True|2025-09-06T07:05:38.0414398+01:00||;True|2025-08-30T18:00:53.0231251+01:00||;True|2025-08-30T15:57:50.2674564+01:00||;True|2025-08-30T12:41:41.7340446+01:00||;True|2025-08-25T10:52:08.4495329+01:00||;True|2025-08-25T10:51:58.5691802+01:00||;True|2025-08-24T18:15:24.9791706+01:00||;True|2025-08-24T18:15:19.8373253+01:00||;True|2025-08-24T17:40:05.0388607+01:00||;True|2025-08-24T15:01:48.0009880+01:00||;True|2025-08-24T14:35:51.8073575+01:00||;True|2025-08-21T14:10:12.6849897+01:00||;True|2025-08-15T21:42:31.6110146+01:00||;True|2025-08-15T20:25:50.7799864+01:00||;True|2025-08-15T18:52:08.8652920+01:00||;True|2025-08-15T18:38:21.1035559+01:00||;True|2025-08-13T22:17:37.4310102+01:00||;True|2025-08-12T11:30:31.1100079+01:00||;True|2025-08-12T09:42:24.1034072+01:00||;True|2025-08-12T09:19:26.9438173+01:00||;True|2025-08-11T11:46:01.3553440+01:00||;True|2025-08-09T09:56:59.7490191+01:00||;True|2025-08-09T09:45:08.9062588+01:00||;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DatabaseConnection">
+      <Value>Server=%3b Database=TODOAppDB%3b User Id=enterprise%3b Password=entx!2003n%3b TrustServerCertificate=True%3b Trusted_Connection=True</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>

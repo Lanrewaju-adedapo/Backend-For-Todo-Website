@@ -1,5 +1,58 @@
 [
   {
+    "ContainingType": "TestProject.Controllers.AuthController",
+    "Method": "LoginUser",
+    "RelativePath": "api/Auth/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loggedInUser",
+        "Type": "TestProject.ViewModels_DTOs_.UserLogin",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TestProject.Controllers.AuthController",
+    "Method": "RefreshToken",
+    "RelativePath": "api/Auth/refreshToken",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "token",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "RefreshToken",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TestProject.Controllers.AuthController",
+    "Method": "RegisterUser",
+    "RelativePath": "api/Auth/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "registerUser",
+        "Type": "TestProject.ViewModels_DTOs_.RegisterUserDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "TestProject.Controllers.TodosController",
     "Method": "CreateTodo",
     "RelativePath": "api/Todos",
@@ -75,6 +128,22 @@
   },
   {
     "ContainingType": "TestProject.Controllers.TodosController",
+    "Method": "AddNewCategory",
+    "RelativePath": "api/Todos/AddNewCategory",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Category",
+        "Type": "TestProject.ViewModels_DTOs_.CreateCategoryDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TestProject.Controllers.TodosController",
     "Method": "GetAllCategories",
     "RelativePath": "api/Todos/categories",
     "HttpMethod": "GET",
@@ -101,6 +170,32 @@
   },
   {
     "ContainingType": "TestProject.Controllers.TodosController",
+    "Method": "DeleteCategory",
+    "RelativePath": "api/Todos/DeleteCategory/{CategoryId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "CategoryId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TestProject.Controllers.TodosController",
+    "Method": "GetAllDueTasks",
+    "RelativePath": "api/Todos/DueTasks",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TestProject.Controllers.TodosController",
     "Method": "GetTaskByCategory",
     "RelativePath": "api/Todos/getcategory/{CategoryId}",
     "HttpMethod": "GET",
@@ -113,6 +208,36 @@
         "IsRequired": true
       }
     ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TestProject.Controllers.TodosController",
+    "Method": "GetCompletedTasks",
+    "RelativePath": "api/Todos/getCompletedTasks",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TestProject.Controllers.TodosController",
+    "Method": "GetAllTodayTasks",
+    "RelativePath": "api/Todos/todayTasks",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TestProject.Controllers.TodosController",
+    "Method": "GetAllUpcomingTasks",
+    "RelativePath": "api/Todos/upcomingTasks",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": []
   }
 ]

@@ -151,6 +151,7 @@ C:\Users\user\source\repos\TestProject\obj\Debug\net9.0\TestProject.AssemblyInfo
 C:\Users\user\source\repos\TestProject\obj\Debug\net9.0\TestProject.csproj.CoreCompileInputs.cache
 C:\Users\user\source\repos\TestProject\obj\Debug\net9.0\TestProject.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\user\source\repos\TestProject\obj\Debug\net9.0\TestProject.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\user\source\repos\TestProject\obj\Debug\net9.0\TestProject.sourcelink.json
 C:\Users\user\source\repos\TestProject\obj\Debug\net9.0\rjimswa.dswa.cache.json
 C:\Users\user\source\repos\TestProject\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
 C:\Users\user\source\repos\TestProject\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
@@ -159,10 +160,17 @@ C:\Users\user\source\repos\TestProject\obj\Debug\net9.0\staticwebassets.build.js
 C:\Users\user\source\repos\TestProject\obj\Debug\net9.0\staticwebassets.build.json.cache
 C:\Users\user\source\repos\TestProject\obj\Debug\net9.0\staticwebassets.development.json
 C:\Users\user\source\repos\TestProject\obj\Debug\net9.0\staticwebassets.build.endpoints.json
-C:\Users\user\source\repos\TestProject\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 C:\Users\user\source\repos\TestProject\obj\Debug\net9.0\TestProj.121896E9.Up2Date
 C:\Users\user\source\repos\TestProject\obj\Debug\net9.0\TestProject.dll
 C:\Users\user\source\repos\TestProject\obj\Debug\net9.0\refint\TestProject.dll
 C:\Users\user\source\repos\TestProject\obj\Debug\net9.0\TestProject.pdb
 C:\Users\user\source\repos\TestProject\obj\Debug\net9.0\TestProject.genruntimeconfig.cache
 C:\Users\user\source\repos\TestProject\obj\Debug\net9.0\ref\TestProject.dll
+C:\Users\user\source\repos\TestProject\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\user\source\repos\TestProject\bin\Debug\net9.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\user\source\repos\TestProject\bin\Debug\net9.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\user\source\repos\TestProject\bin\Debug\net9.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\user\source\repos\TestProject\bin\Debug\net9.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\user\source\repos\TestProject\bin\Debug\net9.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\user\source\repos\TestProject\bin\Debug\net9.0\MySqlConnector.dll
+C:\Users\user\source\repos\TestProject\bin\Debug\net9.0\Pomelo.EntityFrameworkCore.MySql.dll

@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using TestProject.Data;
 using TestProject.IRepo;
@@ -8,6 +9,7 @@ using TestProject.ViewModels_DTOs_;
 
 namespace TestProject.Controllers
 {
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class TodosController : ControllerBase
@@ -43,7 +45,28 @@ namespace TestProject.Controllers
         public async Task<IActionResult> GetAllTasks()
         {
             var result = await _todoService.GetAllTasks();
+            return Ok(result);
+        }
+
+        [HttpGet("todayTasks")]
+        public async Task<IActionResult> GetAllTodayTasks()
+        {
+            var result = await _todoService.GetAllTodayTasks();
             return Ok(result); 
+        }
+
+        [HttpGet("upcomingTasks")]
+        public async Task<IActionResult> GetAllUpcomingTasks()
+        {
+            var result = await _todoService.GetAllUpcomingTasks();
+            return Ok(result);
+        }
+
+        [HttpGet("DueTasks")]
+        public async Task<IActionResult> GetAllDueTasks()
+        {
+            var result = await _todoService.GetAllDueTasks();
+            return Ok(result);
         }
 
         [HttpPut]
@@ -54,24 +77,11 @@ namespace TestProject.Controllers
             return result.Status.ToLower() == "failed" ? BadRequest(result) : Ok(result);
         }
 
-        [HttpDelete("{taskId}")]
-        public async Task<IActionResult> DeleteTask(int taskId)
-        {
-            if (taskId <= 0)
-                return BadRequest(new StatusMessage { Status = "Failed", Message = "TaskId must be positive." });
-
-            var result = await _todoService.DeleteTask(taskId);
-
-            return result.Status.ToLower() == "failed"
-                ? NotFound(result)
-                : Ok(result);
-        }
-
         [HttpGet("categories")]
         public async Task<IActionResult> GetAllCategories()
         {
             var result = await _todoService.GetAllCategories();
-            return Ok(result); 
+            return result.Status.ToLower() == "failed" ? BadRequest(result) : Ok(result);
         }
 
         [HttpPut("CompleteTask")]
@@ -89,6 +99,47 @@ namespace TestProject.Controllers
         {
             var result = await _todoService.GetTasksByCategory(CategoryId);
             return Ok(result);
+        }
+
+        [HttpGet("getCompletedTasks")]
+        public async Task<IActionResult> GetCompletedTasks()
+        {
+            var result = await _todoService.GetAllCompletedTasks();
+            return result.Status.ToLower() == "failed" ? BadRequest(result) : Ok(result);
+        }
+
+        [HttpPost("AddNewCategory")]
+        public async Task<IActionResult> AddNewCategory([FromBody] CreateCategoryDto Category)
+        {
+            var result = await _todoService.AddNewCategory(Category);
+
+            return result?.Status?.ToLower() == "failed" ? BadRequest(result) : Ok(result);
+        }
+
+        [HttpDelete("{taskId}")]
+        public async Task<IActionResult> DeleteTask(int taskId)
+        {
+            if (taskId <= 0)
+                return BadRequest(new StatusMessage { Status = "Failed", Message = "TaskId must be positive." });
+
+            var result = await _todoService.DeleteTask(taskId);
+
+            return result.Status.ToLower() == "failed"
+                ? NotFound(result)
+                : Ok(result);
+        }
+
+        [HttpDelete("DeleteCategory/{CategoryId}")]
+        public async Task<IActionResult> DeleteCategory(int CategoryId)
+        {
+            if (CategoryId <= 0)
+                return BadRequest(new StatusMessage { Status = "Failed", Message = "CategoryId must be positive." });
+
+            var result = await _todoService.DeleteCategory(CategoryId);
+
+            return result?.Status?.ToLower() == "failed"
+                ? NotFound(result)
+                : Ok(result);
         }
     }
 }

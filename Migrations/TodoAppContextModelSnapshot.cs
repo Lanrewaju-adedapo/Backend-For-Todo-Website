@@ -22,89 +22,68 @@ namespace TestProject.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("TestProject.Models.Entities.TodoList", b =>
+            modelBuilder.Entity("TestProject.Models.Entities.Categories", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<int>("CategoryId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("CategoryId"));
 
-                    b.Property<DateTime?>("CreatedDate")
-                        .HasColumnType("datetime2");
-
-                    b.Property<string>("Description")
-                        .IsRequired()
+                    b.Property<string>("CategoryName")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Title")
-                        .IsRequired()
+                    b.Property<string>("ColorCode")
                         .HasColumnType("nvarchar(max)");
 
-                    b.HasKey("Id");
+                    b.HasKey("CategoryId");
 
-                    b.ToTable("todoLists");
+                    b.ToTable("Categories");
+
+                    b.HasData(
+                        new
+                        {
+                            CategoryId = 2,
+                            CategoryName = "Personal"
+                        });
                 });
 
             modelBuilder.Entity("TestProject.Models.Entities.Tasks", b =>
-            {
-                b.Property<int>("TaskId")
-                    .ValueGeneratedOnAdd()
-                    .HasColumnType("int");
+                {
+                    b.Property<int>("TaskId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
 
-                SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("TaskId"));
-                
-                b.Property<string>("Title")
-                    .IsRequired()
-                    .HasColumnType("nvarchar(max)");
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("TaskId"));
 
-                b.Property<string>("Description")
-                    .IsRequired()
-                    .HasColumnType("nvarchar(max)");
+                    b.Property<int?>("CategoryId")
+                        .HasColumnType("int");
 
-                b.Property<DateTime?>("DueDate")   
-                    .HasColumnType("datetime2");
+                    b.Property<DateTime?>("CreatedAt")
+                        .HasColumnType("datetime2");
 
-                b.Property<byte>("Priority")
-                    .HasColumnType("tinyint");
+                    b.Property<string>("Description")
+                        .HasColumnType("nvarchar(max)");
 
-                b.Property<bool?>("IsCompleted")
-                    .HasColumnType("bit");
+                    b.Property<DateTime?>("DueDate")
+                        .HasColumnType("datetime2");
 
-                b.Property<DateTime?>("CreatedAt")
-                    .HasColumnType("datetime2");
+                    b.Property<bool?>("IsCompleted")
+                        .HasColumnType("bit");
 
-                b.Property<DateTime?>("LastModified")
-                    .HasColumnType("datetime2");
+                    b.Property<DateTime?>("LastModified")
+                        .HasColumnType("datetime2");
 
-                b.Property<int>("CategoryId")
-                    .HasColumnType("int");
+                    b.Property<byte?>("Priority")
+                        .HasColumnType("tinyint");
 
-                b.HasKey("TaskId");
+                    b.Property<string>("Title")
+                        .HasColumnType("nvarchar(max)");
 
-                b.ToTable("Tasks");
-            });
+                    b.HasKey("TaskId");
 
-            modelBuilder.Entity("TestProject.Models.Entities.Categories", b =>
-            {
-
-                b.Property<int>("CategoryId")
-                    .ValueGeneratedOnAdd()
-                    .HasColumnType("int");
-
-                SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("CategoryId"));
-
-                b.Property<string>("CategoryName")
-                    .IsRequired()
-                    .HasColumnType("nvarchar(100)");
-
-                b.Property<string>("ColorCode")                   
-                   .HasColumnType("nvarchar(20)");
-                
-                b.HasKey("CategoryId");
-
-                b.ToTable("Categories");
-            });
+                    b.ToTable("Tasks");
+                });
 #pragma warning restore 612, 618
         }
     }
