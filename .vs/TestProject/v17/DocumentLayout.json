@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\user\\source\\repos\\TestProject\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4B93DEB1-E8E4-4123-B43C-E222411A96E5}|TestProject.csproj|c:\\users\\user\\source\\repos\\testproject\\viewmodels(dtos)\\createtododto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B93DEB1-E8E4-4123-B43C-E222411A96E5}|TestProject.csproj|solutionrelative:viewmodels(dtos)\\createtododto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B93DEB1-E8E4-4123-B43C-E222411A96E5}|TestProject.csproj|c:\\users\\user\\source\\repos\\testproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4B93DEB1-E8E4-4123-B43C-E222411A96E5}|TestProject.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B93DEB1-E8E4-4123-B43C-E222411A96E5}|TestProject.csproj|c:\\users\\user\\source\\repos\\testproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B93DEB1-E8E4-4123-B43C-E222411A96E5}|TestProject.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4B93DEB1-E8E4-4123-B43C-E222411A96E5}|TestProject.csproj|c:\\users\\user\\source\\repos\\testproject\\services\\todoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4B93DEB1-E8E4-4123-B43C-E222411A96E5}|TestProject.csproj|solutionrelative:services\\todoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4B93DEB1-E8E4-4123-B43C-E222411A96E5}|TestProject.csproj|c:\\users\\user\\source\\repos\\testproject\\models\\entities\\tasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4B93DEB1-E8E4-4123-B43C-E222411A96E5}|TestProject.csproj|solutionrelative:models\\entities\\tasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4B93DEB1-E8E4-4123-B43C-E222411A96E5}|TestProject.csproj|c:\\users\\user\\source\\repos\\testproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4B93DEB1-E8E4-4123-B43C-E222411A96E5}|TestProject.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4B93DEB1-E8E4-4123-B43C-E222411A96E5}|TestProject.csproj|c:\\users\\user\\source\\repos\\testproject\\data\\todoappcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -25,14 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{4B93DEB1-E8E4-4123-B43C-E222411A96E5}|TestProject.csproj|c:\\users\\user\\source\\repos\\testproject\\models\\authentication\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4B93DEB1-E8E4-4123-B43C-E222411A96E5}|TestProject.csproj|solutionrelative:models\\authentication\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4B93DEB1-E8E4-4123-B43C-E222411A96E5}|TestProject.csproj|c:\\users\\user\\source\\repos\\testproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{4B93DEB1-E8E4-4123-B43C-E222411A96E5}|TestProject.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4B93DEB1-E8E4-4123-B43C-E222411A96E5}|TestProject.csproj|c:\\users\\user\\source\\repos\\testproject\\viewmodels(dtos)\\createtododto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4B93DEB1-E8E4-4123-B43C-E222411A96E5}|TestProject.csproj|solutionrelative:viewmodels(dtos)\\createtododto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4B93DEB1-E8E4-4123-B43C-E222411A96E5}|TestProject.csproj|c:\\users\\user\\source\\repos\\testproject\\models\\entities\\categories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -114,19 +114,24 @@
             },
             {
               "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
               "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\TestProject\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
               "ToolTip": "C:\\Users\\user\\source\\repos\\TestProject\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAACEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-10-26T10:08:34.17Z"
+              "WhenOpened": "2025-10-26T10:08:34.17Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -136,13 +141,14 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\user\\source\\repos\\TestProject\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAADwAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAEYAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-26T10:09:38.436Z"
+              "WhenOpened": "2025-10-26T10:09:38.436Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "AuthorizationService.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\TestProject\\Services\\AuthorizationService.cs",
               "RelativeDocumentMoniker": "Services\\AuthorizationService.cs",
@@ -166,7 +172,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Tasks.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\TestProject\\Models\\Entities\\Tasks.cs",
               "RelativeDocumentMoniker": "Models\\Entities\\Tasks.cs",
@@ -190,7 +196,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
               "Title": "CreateTodoDto.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\TestProject\\ViewModels(DTOs)\\CreateTodoDto.cs",
               "RelativeDocumentMoniker": "ViewModels(DTOs)\\CreateTodoDto.cs",
@@ -198,24 +204,25 @@
               "RelativeToolTip": "ViewModels(DTOs)\\CreateTodoDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-11T11:35:31.809Z"
+              "WhenOpened": "2025-10-11T11:35:31.809Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "TodoService.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\TestProject\\Services\\TodoService.cs",
               "RelativeDocumentMoniker": "Services\\TodoService.cs",
               "ToolTip": "C:\\Users\\user\\source\\repos\\TestProject\\Services\\TodoService.cs",
               "RelativeToolTip": "Services\\TodoService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-11T10:42:06.598Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "TodoAppContext.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\TestProject\\Data\\TodoAppContext.cs",
               "RelativeDocumentMoniker": "Data\\TodoAppContext.cs",
@@ -227,7 +234,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Users.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\TestProject\\Models\\Authentication\\Users.cs",
               "RelativeDocumentMoniker": "Models\\Authentication\\Users.cs",
